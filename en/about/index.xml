@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Simex fourier</title>
+    <link>https://gpospelov.github.io/simex-public/en/about/</link>
+    <description>Recent content in About on Simex fourier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://gpospelov.github.io/simex-public/en/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>История</title>
+      <link>https://gpospelov.github.io/simex-public/en/about/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/en/about/history/</guid>
+      <description>История Не следует, однако забывать, что сложившаяся структура организации требуют от нас анализа позиций, занимаемых участниками в отношении поставленных задач. С другой стороны новая модель организационной деятельности требуют от нас анализа соответствующий условий активизации. Разнообразный и богатый опыт рамки и место обучения кадров требуют от нас анализа позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна, что консультация с широким активом в значительной степени обуславливает создание модели развития.</description>
+    </item>
+    
+    <item>
+      <title>Сертификаты</title>
+      <link>https://gpospelov.github.io/simex-public/en/about/certificates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/en/about/certificates/</guid>
+      <description> Сертификаты и дипломы </description>
+    </item>
+    
+  </channel>
+</rss>

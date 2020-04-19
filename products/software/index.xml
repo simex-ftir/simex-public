@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Софт on Simex fourier</title>
+    <link>https://gpospelov.github.io/simex-public/products/software/</link>
+    <description>Recent content in Софт on Simex fourier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://gpospelov.github.io/simex-public/products/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Заир</title>
+      <link>https://gpospelov.github.io/simex-public/products/software/zair/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/software/zair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Пума</title>
+      <link>https://gpospelov.github.io/simex-public/products/software/puma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/software/puma/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

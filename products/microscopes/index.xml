@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Микроскопы on Simex fourier</title>
+    <link>https://gpospelov.github.io/simex-public/products/microscopes/</link>
+    <description>Recent content in Микроскопы on Simex fourier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://gpospelov.github.io/simex-public/products/microscopes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>МИКРАН-2</title>
+      <link>https://gpospelov.github.io/simex-public/products/microscopes/micran-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/microscopes/micran-2/</guid>
+      <description>Широкодиапазонный инфракрасный микроскоп для исследования неоднородных по составу образцов размером от 10 микрон.</description>
+    </item>
+    
+    <item>
+      <title>МИКРАН-3</title>
+      <link>https://gpospelov.github.io/simex-public/products/microscopes/micran-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/microscopes/micran-3/</guid>
+      <description>Широкодиапазонный инфракрасный микроскоп исследовательского класса с расширенными возможностями.</description>
+    </item>
+    
+  </channel>
+</rss>

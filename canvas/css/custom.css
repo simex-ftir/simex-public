@@ -1,0 +1,170 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+
+
+.before-heading {
+	font-size: 22px;
+}
+
+figure.center, figure.float-left figcaption{
+  text-align: center;
+}
+
+figure.float-left {
+  padding-right: 0.7rem;
+  margin: 0rem 0rem 0rem 0rem;
+}
+
+.figcaption {
+	display:table;
+	clear:both
+}
+
+/* ------------------------------------------------------------- *
+ *  Sidebar on documentation page
+/* ------------------------------------------------------------- */
+
+ul.doctree ul {
+    display: none;
+}
+
+ul.doctree li.parent > ul, li.active > ul {
+    display: block;
+}
+
+/* ------------------------------------------------------------- *
+ *  Hotspot
+/* ------------------------------------------------------------- */
+
+.hotspot-img { position: relative; }
+
+.hotspot-img img { opacity: .6; }
+
+.hotspot-img .hot-spot {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	top: 5px;
+	left: 5px;
+	text-align: center;
+	background-color: rgba(68, 170, 172, 0.8);
+	border: 1px solid #FFF;
+	border-radius: 100%;
+	cursor: pointer;
+	transition: transform .3s ease;
+}
+
+.hotspot-img .hot-spot .circle {
+	display: block;
+	position: absolute;
+	top: 47%;
+	left: 47%;
+	width: 2em;
+	height: 2em;
+	margin: -1em auto auto -1em;
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	border-radius: 50%;
+	background: #44aaac;
+	opacity: 0;
+	z-index: -1;
+	-webkit-animation: pulsate 3.5s ease-out infinite;
+	animation: pulsate 3.5s ease-out infinite;
+}
+
+.hotspot-img .hot-spot:nth-child(2) .circle { animation-delay: 2s; }
+.hotspot-img .hot-spot:nth-child(3) .circle { animation-delay: 3.5s; }
+.hotspot-img .hot-spot:nth-child(4) .circle { animation-delay: 5.2s; }
+.hotspot-img .hot-spot:nth-child(5) .circle { animation-delay: 6.4s; }
+.hotspot-img .hot-spot:nth-child(6) .circle { animation-delay: 8s; }
+.hotspot-img .hot-spot:nth-child(7) .circle { animation-delay: 9.2s; }
+.hotspot-img .hot-spot:nth-child(8) .circle { animation-delay: 11s; }
+.hotspot-img .hot-spot:nth-child(9) .circle { animation-delay: 13s; }
+.hotspot-img .hot-spot:nth-child(10) .circle { animation-delay: 15s; }
+.hotspot-img .hot-spot:nth-child(11) .circle { animation-delay: 3s; }
+.hotspot-img .hot-spot:nth-child(12) .circle { animation-delay: 3.5s; }
+
+.hotspot-img .hot-spot .tooltip {
+	background-color: rgba(255, 255, 255, 0.9);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 14px;
+	opacity: 0;
+	display: none;
+	left: 0;
+	padding: 8px 10px;
+	position: absolute;
+	top: 20px;
+	width: auto;
+	z-index: 999;
+	box-shadow: 0 10px 80px rgba(0,0,0,0.1), 0 10px 50px rgba(0,0,0,0.1);
+	-webkit-transform: translateY(3px);
+	-ms-transform: translateY(3px);
+	-o-transform: translateY(3px);
+	transform: translateY(3px);
+	-webkit-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
+}
+
+.hotspot-img .hot-spot.hotspot-tooltip-open .tooltip {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.hotspot-img .hot-spot .tooltip.ontop {
+	top: auto;
+	bottom: 35px;
+}
+
+.hotspot-img .hot-spot .tooltip  p {
+	font-size: 13px;
+	line-height: 1.3rem !important;
+	margin-bottom: 0;
+	white-space: nowrap;
+	color: #666 !important;
+	text-transform: capitalize;
+}
+
+@-webkit-keyframes
+	pulsate {  0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		opacity: 0.8;
+	}
+	 45% {
+		-webkit-transform: scale(1.75);
+		transform: scale(1.75);
+		opacity: 0;
+	}
+}
+@keyframes
+	pulsate {  0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		opacity: 0.8;
+	}
+		45% {
+		-webkit-transform: scale(1.75);
+		transform: scale(1.75);
+		opacity: 0;
+	}
+}
+
+
+.team.team-list .team-image-sm {
+	float: left;
+	width: 200px;
+	margin-right: 30px;
+}
+
+#mapid { height: 180px; }

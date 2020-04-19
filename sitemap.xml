@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://gpospelov.github.io/simex-public/ru/sitemap.xml</loc>
+		
+	   	<lastmod>2017-03-01T18:28:35+01:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://gpospelov.github.io/simex-public/en/sitemap.xml</loc>
+		
+	</sitemap>
+	
+</sitemapindex>

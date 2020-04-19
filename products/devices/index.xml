@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Приставки on Simex fourier</title>
+    <link>https://gpospelov.github.io/simex-public/products/devices/</link>
+    <description>Recent content in Приставки on Simex fourier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://gpospelov.github.io/simex-public/products/devices/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Приставка НПВО</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/npvo-monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/npvo-monitor/</guid>
+      <description>Обеспечивает измерение в режиме нарушенного полного внутреннего отражения с одновременной визуализацией микрообъекта на встроенном мониторе.</description>
+    </item>
+    
+    <item>
+      <title>Алмазная термоячейка</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/heating-cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/heating-cell/</guid>
+      <description>Система подогрева образцов с алмазной призмой НПВО и блоком контроллера температуры.</description>
+    </item>
+    
+    <item>
+      <title>Жидкостная кювета</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/tunable-liquid-cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/tunable-liquid-cell/</guid>
+      <description>Регулируемый жидкостной конденсор для экспресс анализа жидкостей с ячейкой для количественного анализа.</description>
+    </item>
+    
+    <item>
+      <title>Приставка ПРИЗ</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/reflectance-box/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/reflectance-box/</guid>
+      <description>Универсальная приставка пропускания/отражения ПРИЗ с нижним расположением образца и визуализацией исследуемого объекта на мониторе.</description>
+    </item>
+    
+    <item>
+      <title>Приставка НПВО</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/npvo-specdiff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/npvo-specdiff/</guid>
+      <description>Универсальная приставка для измерения методом нарушенного внутреннего и зеркально-диффузного отражения с одновременной визуализацией объекта исследования.</description>
+    </item>
+    
+    <item>
+      <title>Приставка МНПВО</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/npvo-multiple/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/npvo-multiple/</guid>
+      <description>Приставка МНПВО с элементом из селенида цинка и встроенной системой визуализации на внешнем мониторе.</description>
+    </item>
+    
+    <item>
+      <title>Охлаждаемый МСТ</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/cooled-mct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/cooled-mct/</guid>
+      <description>Оптический блок для кюветного отсека спектрометра ФТ-801 с высокочувствительным МСТ детектором, охлаждаемым жидким азотом.</description>
+    </item>
+    
+    <item>
+      <title>Приставка отражения</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/reflectance-box15b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/reflectance-box15b/</guid>
+      <description>Оптическая приставка отражения  с верхним расположением образца и углом падения лучей 15°.</description>
+    </item>
+    
+    <item>
+      <title>Приставка МКФ-Ю</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/focusing-mkfu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/focusing-mkfu/</guid>
+      <description>Фокусирующая приставка МКФ-Ю с юстируемым столиком и горизонтальным размещением исследуемых образцов</description>
+    </item>
+    
+    <item>
+      <title>Приставка МКФ</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/focusing-mkf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/focusing-mkf/</guid>
+      <description>Фокусирующая приставка МКФ.</description>
+    </item>
+    
+    <item>
+      <title>Газовые кюветы</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/gas-cells/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/gas-cells/</guid>
+      <description>Качественный и количественный спектральный анализ газовых смесей.</description>
+    </item>
+    
+    <item>
+      <title>Жидкостная кювета</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/liquid-cell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/liquid-cell/</guid>
+      <description>Жидкостная кювета для исследования растворов с низкими концентрациями.</description>
+    </item>
+    
+    <item>
+      <title>Держатель твердых образцов</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/sample-holder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/sample-holder/</guid>
+      <description>Регистрация спектров пропускания твердых образцов среднего размера и произвольной формы.</description>
+    </item>
+    
+    <item>
+      <title>Держатель KBr таблеток</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/tablets-holder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/tablets-holder/</guid>
+      <description>Установка в образцовый отсек спектрометра таблеток с бромидом калия.</description>
+    </item>
+    
+    <item>
+      <title>Мониторинг атмосферы</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/atmosphere-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/atmosphere-monitoring/</guid>
+      <description>Зеркальный телескоп и прожектор с инфра-красным излучателем в сопряжении с фурье-спектрометром.</description>
+    </item>
+    
+    <item>
+      <title>Оптическая система</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/remote-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/remote-control/</guid>
+      <description>Оптическая система для регистрациии спектров веществ, находящихся в удаленных замкнутых объемах.</description>
+    </item>
+    
+    <item>
+      <title>Пресс-форма</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/powder-mold/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/powder-mold/</guid>
+      <description>Пресс-форма для изготовления таблеток с микрокристаллическим бромидом калия.</description>
+    </item>
+    
+    <item>
+      <title>ГП 200-13</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/hydraulic-press/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/hydraulic-press/</guid>
+      <description>Подготовка проб в виде спрессованных таблеток, состоящих из исследуемого вещества в смеси с микрокристаллическим бромидом калия.</description>
+    </item>
+    
+    <item>
+      <title>Мини-пресс</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/mini-press/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/mini-press/</guid>
+      <description>Мини-пресс для получения тонких слоев вещества на стальных зеркальных пластинах.</description>
+    </item>
+    
+    <item>
+      <title>Механический пресс</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/hand-press/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/hand-press/</guid>
+      <description>Подготовка проб в виде спрессованных таблеток исследуемого вещества в смеси с микрокристаллическим бромидом калия.</description>
+    </item>
+    
+    <item>
+      <title>Оптическая приставка</title>
+      <link>https://gpospelov.github.io/simex-public/products/devices/optical-device/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/products/devices/optical-device/</guid>
+      <description>Использование световодных систем совместно с фурье-спектрометрами серии ФТ-801.</description>
+    </item>
+    
+  </channel>
+</rss>

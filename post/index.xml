@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Новости on Simex fourier</title>
+    <link>https://gpospelov.github.io/simex-public/post/</link>
+    <description>Recent content in Новости on Simex fourier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2017 18:28:35 +0100</lastBuildDate>
+    
+	<atom:link href="https://gpospelov.github.io/simex-public/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>«Аналитика Экспо»</title>
+      <link>https://gpospelov.github.io/simex-public/post/post-2017-03-01/</link>
+      <pubDate>Wed, 01 Mar 2017 18:28:35 +0100</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/post/post-2017-03-01/</guid>
+      <description>11 – 13 апреля 2017, Россия, Москва, КВЦ «Сокольники». Наш стенд «Спектральные приборы НПФ СИМЕКС»   под номером B 103 в павильоне 4.1.</description>
+    </item>
+    
+    <item>
+      <title>«Аналитика Экспо»</title>
+      <link>https://gpospelov.github.io/simex-public/post/post-2014-04-01/</link>
+      <pubDate>Wed, 01 Jan 2014 18:28:35 +0100</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/post/post-2014-04-01/</guid>
+      <description>Приглашаем посетить наш стенд «Спектральные приборы НПФ СИМЕКС»  под номером А 151 в павильоне 4, 5 – 18 апреля 2014, Россия, Москва, КВЦ «Сокольники»</description>
+    </item>
+    
+    <item>
+      <title>«Аналитика Экспо»</title>
+      <link>https://gpospelov.github.io/simex-public/post/post-2012-04-01/</link>
+      <pubDate>Sun, 01 Apr 2012 18:28:35 +0100</pubDate>
+      
+      <guid>https://gpospelov.github.io/simex-public/post/post-2012-04-01/</guid>
+      <description>Приглашаем посетить наш стенд «Спектральные приборы НПФ СИМЕКС»  под номером А 365 в павильоне 4, 10 – 13 апреля 2012, Россия, Москва, КВЦ «Сокольники»</description>
+    </item>
+    
+  </channel>
+</rss>
