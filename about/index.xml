@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>О компании on Simex fourier</title>
-    <link>https://gpospelov.github.io/simex-public/about/</link>
+    <link>https://simex-ftir.github.io/simex-public/about/</link>
     <description>Recent content in О компании on Simex fourier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://gpospelov.github.io/simex-public/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://simex-ftir.github.io/simex-public/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>История</title>
-      <link>https://gpospelov.github.io/simex-public/about/history/</link>
+      <link>https://simex-ftir.github.io/simex-public/about/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/about/history/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/about/history/</guid>
       <description>История Компания «СИМЕКС» была основана более 20 лет назад, в 1989 году, когда сотрудники одного из крупнейших институтов СО РАН – Института физики полупроводников, создали научно-производственное предприятие для математического моделирования, разработки и изготовления приборов.
  Патент на фурье-спектрометр был получен в 1993 году. В этом же году на выставке «Наука-93» разработка фирмы заинтересовала экспертов-криминалистов из ЭКЦ МВД, и при их деятельном участии и консультационной поддержке были разработаны и изготовлены шесть ИК фурье-спектрометров «Орион».</description>
     </item>
     
     <item>
       <title>Сертификаты</title>
-      <link>https://gpospelov.github.io/simex-public/about/certificates/</link>
+      <link>https://simex-ftir.github.io/simex-public/about/certificates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/about/certificates/</guid>
-      <description> Сертификаты                                                                    </description>
+      <guid>https://simex-ftir.github.io/simex-public/about/certificates/</guid>
+      <description>Сертификаты                                                                    </description>
     </item>
     
   </channel>

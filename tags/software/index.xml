@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software on Simex fourier</title>
+    <link>https://simex-ftir.github.io/simex-public/tags/software/</link>
+    <description>Recent content in software on Simex fourier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://simex-ftir.github.io/simex-public/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Софт</title>
+      <link>https://simex-ftir.github.io/simex-public/products/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://simex-ftir.github.io/simex-public/products/software/</guid>
+      <description>Программы для получения, обработки и идентификации инфракрасных спектров при работе со спектрометрами Симекс.</description>
+    </item>
+    
+  </channel>
+</rss>

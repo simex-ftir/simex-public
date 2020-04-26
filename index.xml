@@ -1,409 +1,302 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Начало on Simex fourier</title>
-    <link>https://gpospelov.github.io/simex-public/</link>
-    <description>Recent content in Начало on Simex fourier</description>
+    <title>Главная on Simex fourier</title>
+    <link>https://simex-ftir.github.io/simex-public/</link>
+    <description>Recent content in Главная on Simex fourier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Mar 2017 18:28:35 +0100</lastBuildDate>
     
-	<atom:link href="https://gpospelov.github.io/simex-public/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://simex-ftir.github.io/simex-public/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Child1</title>
-      <link>https://gpospelov.github.io/simex-public/documentation/playground/children/child1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gpospelov.github.io/simex-public/documentation/playground/children/child1/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
-    </item>
-    
-    <item>
-      <title>Grandchild1</title>
-      <link>https://gpospelov.github.io/simex-public/documentation/playground/children/child3/grandchild1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gpospelov.github.io/simex-public/documentation/playground/children/child3/grandchild1/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
-    </item>
-    
-    <item>
-      <title>Grandchild2</title>
-      <link>https://gpospelov.github.io/simex-public/documentation/playground/children/child3/grandchild2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gpospelov.github.io/simex-public/documentation/playground/children/child3/grandchild2/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
-    </item>
-    
-    <item>
-      <title>Paragraphs and headers</title>
-      <link>https://gpospelov.github.io/simex-public/documentation/playground/basic-markdown/headers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gpospelov.github.io/simex-public/documentation/playground/basic-markdown/headers/</guid>
-      <description>Paragraphs and headers Page demonstrates basic text elements of markdown. We are interested here in size of headers, spaces between text elements, etc. The content of this page is shown via shortcode.
-HAHAHUGOSHORTCODE-TOC0-HBHB
-Welcome h1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.</description>
-    </item>
-    
-    <item>
-      <title>Заир</title>
-      <link>https://gpospelov.github.io/simex-public/products/software/zair/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gpospelov.github.io/simex-public/products/software/zair/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>МИКРАН-2</title>
-      <link>https://gpospelov.github.io/simex-public/products/microscopes/micran-2/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/microscopes/micran-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/microscopes/micran-2/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/microscopes/micran-2/</guid>
       <description>Широкодиапазонный инфракрасный микроскоп для исследования неоднородных по составу образцов размером от 10 микрон.</description>
     </item>
     
     <item>
       <title>Приставка НПВО</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/npvo-monitor/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/npvo-monitor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/npvo-monitor/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/npvo-monitor/</guid>
       <description>Обеспечивает измерение в режиме нарушенного полного внутреннего отражения с одновременной визуализацией микрообъекта на встроенном мониторе.</description>
     </item>
     
     <item>
       <title>Статьи</title>
-      <link>https://gpospelov.github.io/simex-public/documentation/publications/</link>
+      <link>https://simex-ftir.github.io/simex-public/documentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/documentation/publications/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/documentation/</guid>
       <description>Наши публикации  Основные критерии оценки качества и возможностей современных фурье спектрометров для криминалистического анализа    Смазки и масла для предприятий РЖД, исследование на ик-фурье-спектрометре “СИМЕКС” ФТ-801    Новые приставки для фурье-спектрометра ФТ-801. 2016    ИК-фурье-спектрометр ФТ-803 с расширенными возможностями – новая разработка компании “СИМЕКС”    ИК-фурье-спектро метр ФТ-805 – инновационная разработка компании “СИМЕКС”    ИК фурье-спектрометры со специализированными приставками (НПВО , ИК-микр оскоп и др.</description>
     </item>
     
     <item>
       <title>ФТ-801</title>
-      <link>https://gpospelov.github.io/simex-public/products/spectrometers/ft-801/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/spectrometers/ft-801/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/</guid>
       <description>Базовая модель с широкими возможностями расширения функционала за счет подключения внешних устройств.</description>
     </item>
     
     <item>
-      <title>Child2</title>
-      <link>https://gpospelov.github.io/simex-public/documentation/playground/children/child2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gpospelov.github.io/simex-public/documentation/playground/children/child2/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
-    </item>
-    
-    <item>
-      <title>Emphasis</title>
-      <link>https://gpospelov.github.io/simex-public/documentation/playground/basic-markdown/emphasis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gpospelov.github.io/simex-public/documentation/playground/basic-markdown/emphasis/</guid>
-      <description>Emphasis and Strikethrough Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
- This text will be italic This will also be italic This text will be bold This will also be bold You can combine them Strikethrough  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</description>
-    </item>
-    
-    <item>
       <title>Алмазная термоячейка</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/heating-cell/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/heating-cell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/heating-cell/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/heating-cell/</guid>
       <description>Система подогрева образцов с алмазной призмой НПВО и блоком контроллера температуры.</description>
     </item>
     
     <item>
       <title>МИКРАН-3</title>
-      <link>https://gpospelov.github.io/simex-public/products/microscopes/micran-3/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/microscopes/micran-3/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/</guid>
       <description>Широкодиапазонный инфракрасный микроскоп исследовательского класса с расширенными возможностями.</description>
     </item>
     
     <item>
       <title>ФТ-805</title>
-      <link>https://gpospelov.github.io/simex-public/products/spectrometers/ft-805/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/spectrometers/ft-805/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/spectrometers/ft-805/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/spectrometers/ft-805/</guid>
       <description>Компактная модель с интегрированными детекторами для экспресс-мониторинга технологических процессов.</description>
     </item>
     
     <item>
-      <title>List elements</title>
-      <link>https://gpospelov.github.io/simex-public/documentation/playground/basic-markdown/list-elements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gpospelov.github.io/simex-public/documentation/playground/basic-markdown/list-elements/</guid>
-      <description>List elements Page demonstrates basic list elements. We are interested here in list identation, spaces between list and paragraphs etc.
-Unordered list  item 1 item 2  Another item Another item Another item  item 3 item 4  Ordered list  Item 1 Item 2 Item 3  Item 3a Item 3b   Paragraph in section to compare gaps against lists Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
-    </item>
-    
-    <item>
       <title>Жидкостная кювета</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/tunable-liquid-cell/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/tunable-liquid-cell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/tunable-liquid-cell/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/tunable-liquid-cell/</guid>
       <description>Регулируемый жидкостной конденсор для экспресс анализа жидкостей с ячейкой для количественного анализа.</description>
     </item>
     
     <item>
-      <title>Child4</title>
-      <link>https://gpospelov.github.io/simex-public/documentation/playground/children/child4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gpospelov.github.io/simex-public/documentation/playground/children/child4/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
-    </item>
-    
-    <item>
-      <title>Table elements</title>
-      <link>https://gpospelov.github.io/simex-public/documentation/playground/basic-markdown/table-elements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gpospelov.github.io/simex-public/documentation/playground/basic-markdown/table-elements/</guid>
-      <description>Table elements Page demonstrates basic table elements and their appearance in difference context.
-Table surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-   Algorithm Description     algo1 Lorem ipsum dolor sit amet, consectetur adipiscing elit   algo2 Lorem ipsum dolor sit amet    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
-    </item>
-    
-    <item>
       <title>Приставка ПРИЗ</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/reflectance-box/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/reflectance-box/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/reflectance-box/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/reflectance-box/</guid>
       <description>Универсальная приставка пропускания/отражения ПРИЗ с нижним расположением образца и визуализацией исследуемого объекта на мониторе.</description>
     </item>
     
     <item>
-      <title>Link elements</title>
-      <link>https://gpospelov.github.io/simex-public/documentation/playground/basic-markdown/link-elements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gpospelov.github.io/simex-public/documentation/playground/basic-markdown/link-elements/</guid>
-      <description>Link elements External and internal links in various context.
-External link in paragraph context Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-Just a lot of text to test anchors Lorem ipsum dolor sit amet, ridens verterem ea nec, quas ferri veniam vix ei. Modo postea appetere ius et, viris dolore mei eu.</description>
-    </item>
-    
-    <item>
       <title>Приставка НПВО</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/npvo-specdiff/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/npvo-specdiff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/npvo-specdiff/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/npvo-specdiff/</guid>
       <description>Универсальная приставка для измерения методом нарушенного внутреннего и зеркально-диффузного отражения с одновременной визуализацией объекта исследования.</description>
     </item>
     
     <item>
-      <title>Пума</title>
-      <link>https://gpospelov.github.io/simex-public/products/software/puma/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gpospelov.github.io/simex-public/products/software/puma/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Приставка МНПВО</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/npvo-multiple/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/npvo-multiple/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/npvo-multiple/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/npvo-multiple/</guid>
       <description>Приставка МНПВО с элементом из селенида цинка и встроенной системой визуализации на внешнем мониторе.</description>
     </item>
     
     <item>
       <title>Охлаждаемый МСТ</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/cooled-mct/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/cooled-mct/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/cooled-mct/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/cooled-mct/</guid>
       <description>Оптический блок для кюветного отсека спектрометра ФТ-801 с высокочувствительным МСТ детектором, охлаждаемым жидким азотом.</description>
     </item>
     
     <item>
       <title>Приставка отражения</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/reflectance-box15b/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/reflectance-box15b/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/reflectance-box15b/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/reflectance-box15b/</guid>
       <description>Оптическая приставка отражения  с верхним расположением образца и углом падения лучей 15°.</description>
     </item>
     
     <item>
       <title>Приставка МКФ-Ю</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/focusing-mkfu/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/focusing-mkfu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/focusing-mkfu/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/focusing-mkfu/</guid>
       <description>Фокусирующая приставка МКФ-Ю с юстируемым столиком и горизонтальным размещением исследуемых образцов</description>
     </item>
     
     <item>
       <title>Приставка МКФ</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/focusing-mkf/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/focusing-mkf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/focusing-mkf/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/focusing-mkf/</guid>
       <description>Фокусирующая приставка МКФ.</description>
     </item>
     
     <item>
       <title>Газовые кюветы</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/gas-cells/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/gas-cells/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/gas-cells/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/gas-cells/</guid>
       <description>Качественный и количественный спектральный анализ газовых смесей.</description>
     </item>
     
     <item>
       <title>История</title>
-      <link>https://gpospelov.github.io/simex-public/about/history/</link>
+      <link>https://simex-ftir.github.io/simex-public/about/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/about/history/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/about/history/</guid>
       <description>История Компания «СИМЕКС» была основана более 20 лет назад, в 1989 году, когда сотрудники одного из крупнейших институтов СО РАН – Института физики полупроводников, создали научно-производственное предприятие для математического моделирования, разработки и изготовления приборов.
  Патент на фурье-спектрометр был получен в 1993 году. В этом же году на выставке «Наука-93» разработка фирмы заинтересовала экспертов-криминалистов из ЭКЦ МВД, и при их деятельном участии и консультационной поддержке были разработаны и изготовлены шесть ИК фурье-спектрометров «Орион».</description>
     </item>
     
     <item>
       <title>Жидкостная кювета</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/liquid-cell/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/liquid-cell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/liquid-cell/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/liquid-cell/</guid>
       <description>Жидкостная кювета для исследования растворов с низкими концентрациями.</description>
     </item>
     
     <item>
       <title>Сертификаты</title>
-      <link>https://gpospelov.github.io/simex-public/about/certificates/</link>
+      <link>https://simex-ftir.github.io/simex-public/about/certificates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/about/certificates/</guid>
-      <description> Сертификаты                                                                    </description>
+      <guid>https://simex-ftir.github.io/simex-public/about/certificates/</guid>
+      <description>Сертификаты                                                                    </description>
     </item>
     
     <item>
       <title>Держатель твердых образцов</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/sample-holder/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/sample-holder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/sample-holder/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/sample-holder/</guid>
       <description>Регистрация спектров пропускания твердых образцов среднего размера и произвольной формы.</description>
     </item>
     
     <item>
       <title>Держатель KBr таблеток</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/tablets-holder/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/tablets-holder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/tablets-holder/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/tablets-holder/</guid>
       <description>Установка в образцовый отсек спектрометра таблеток с бромидом калия.</description>
     </item>
     
     <item>
       <title>Мониторинг атмосферы</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/atmosphere-monitoring/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/atmosphere-monitoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/atmosphere-monitoring/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/atmosphere-monitoring/</guid>
       <description>Зеркальный телескоп и прожектор с инфра-красным излучателем в сопряжении с фурье-спектрометром.</description>
     </item>
     
     <item>
       <title>Оптическая система</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/remote-control/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/remote-control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/remote-control/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/remote-control/</guid>
       <description>Оптическая система для регистрациии спектров веществ, находящихся в удаленных замкнутых объемах.</description>
     </item>
     
     <item>
       <title>Пресс-форма</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/powder-mold/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/powder-mold/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/powder-mold/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/powder-mold/</guid>
       <description>Пресс-форма для изготовления таблеток с микрокристаллическим бромидом калия.</description>
     </item>
     
     <item>
       <title>ГП 200-13</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/hydraulic-press/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/hydraulic-press/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/hydraulic-press/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/hydraulic-press/</guid>
       <description>Подготовка проб в виде спрессованных таблеток, состоящих из исследуемого вещества в смеси с микрокристаллическим бромидом калия.</description>
     </item>
     
     <item>
       <title>Мини-пресс</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/mini-press/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/mini-press/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/mini-press/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/mini-press/</guid>
       <description>Мини-пресс для получения тонких слоев вещества на стальных зеркальных пластинах.</description>
     </item>
     
     <item>
       <title>Механический пресс</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/hand-press/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/hand-press/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/hand-press/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/hand-press/</guid>
       <description>Подготовка проб в виде спрессованных таблеток исследуемого вещества в смеси с микрокристаллическим бромидом калия.</description>
     </item>
     
     <item>
       <title>Оптическая приставка</title>
-      <link>https://gpospelov.github.io/simex-public/products/devices/optical-device/</link>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/optical-device/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/products/devices/optical-device/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/optical-device/</guid>
       <description>Использование световодных систем совместно с фурье-спектрометрами серии ФТ-801.</description>
     </item>
     
     <item>
-      <title>«Аналитика Экспо»</title>
-      <link>https://gpospelov.github.io/simex-public/post/post-2017-03-01/</link>
+      <title>News</title>
+      <link>https://simex-ftir.github.io/simex-public/post/_index.en/</link>
       <pubDate>Wed, 01 Mar 2017 18:28:35 +0100</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/post/post-2017-03-01/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/post/_index.en/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>«Аналитика Экспо»</title>
+      <link>https://simex-ftir.github.io/simex-public/post/post-2017-03-01/</link>
+      <pubDate>Wed, 01 Mar 2017 18:28:35 +0100</pubDate>
+      
+      <guid>https://simex-ftir.github.io/simex-public/post/post-2017-03-01/</guid>
       <description>11 – 13 апреля 2017, Россия, Москва, КВЦ «Сокольники». Наш стенд «Спектральные приборы НПФ СИМЕКС»   под номером B 103 в павильоне 4.1.</description>
     </item>
     
     <item>
       <title>«Аналитика Экспо»</title>
-      <link>https://gpospelov.github.io/simex-public/post/post-2014-04-01/</link>
+      <link>https://simex-ftir.github.io/simex-public/post/post-2014-04-01/</link>
       <pubDate>Wed, 01 Jan 2014 18:28:35 +0100</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/post/post-2014-04-01/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/post/post-2014-04-01/</guid>
       <description>Приглашаем посетить наш стенд «Спектральные приборы НПФ СИМЕКС»  под номером А 151 в павильоне 4, 5 – 18 апреля 2014, Россия, Москва, КВЦ «Сокольники»</description>
     </item>
     
     <item>
       <title>«Аналитика Экспо»</title>
-      <link>https://gpospelov.github.io/simex-public/post/post-2012-04-01/</link>
+      <link>https://simex-ftir.github.io/simex-public/post/post-2012-04-01/</link>
       <pubDate>Sun, 01 Apr 2012 18:28:35 +0100</pubDate>
       
-      <guid>https://gpospelov.github.io/simex-public/post/post-2012-04-01/</guid>
+      <guid>https://simex-ftir.github.io/simex-public/post/post-2012-04-01/</guid>
       <description>Приглашаем посетить наш стенд «Спектральные приборы НПФ СИМЕКС»  под номером А 365 в павильоне 4, 10 – 13 апреля 2012, Россия, Москва, КВЦ «Сокольники»</description>
     </item>
     
