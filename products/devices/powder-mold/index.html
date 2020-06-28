@@ -158,7 +158,7 @@
                       }
                     }
                   ]).on("autocomplete:selected",function(event, suggestion, dataset, context) {
-                    window.location.assign(suggestion.url);
+                    location.href = '/simex-public'+suggestion.url;
                   });
                 </script>
               
