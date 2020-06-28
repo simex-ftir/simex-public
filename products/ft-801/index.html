@@ -34,6 +34,7 @@
 	<link rel="stylesheet" href="https://simex-ftir.github.io/simex-public//css/leaflet.css" type="text/css" />
 	<script src="https://simex-ftir.github.io/simex-public//js/leaflet.js"></script>
 
+
 	
 	<title>ФТ-801 - Simex fourier</title>
 	<style>
@@ -134,6 +135,38 @@
     
   </ul>
 
+						
+						<div id="top-search">
+							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+							<form action="search.html" method="get">
+                <input type="search" id="search-input" placeholder="Search..." autocomplete="off">                
+
+                <script src="https://cdn.jsdelivr.net/npm/algoliasearch@3/dist/algoliasearchLite.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+                
+                <script>
+                  var client = algoliasearch("EQYIIZQBQX","d8c7776a1f2478bcbb84fbc84c3e14ae");
+                  var index = client.initIndex("simexftir");
+                  autocomplete('#search-input', { hint: false }, [
+                  {
+                    source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+                    displayKey: 'title',
+                    templates: {
+                      suggestion: function(suggestion) {
+                        return suggestion._highlightResult.title.value;
+                      }
+                      }
+                    }
+                  ]).on("autocomplete:selected",function(event, suggestion, dataset, context) {
+                    window.location.assign(suggestion.url);
+                  });
+                </script>
+              
+
+							</form>
+						</div>  
+
+
 </nav>
 
 
@@ -153,8 +186,6 @@
 
   
 
-  
-
 
   <li class="breadcrumb-item"><a href="https://simex-ftir.github.io/simex-public/">Главная</a></li>
 
@@ -162,11 +193,6 @@
 
 
   <li class="breadcrumb-item"><a href="https://simex-ftir.github.io/simex-public/products/">Оборудование</a></li>
-
-
-
-
-  <li class="breadcrumb-item"><a href="https://simex-ftir.github.io/simex-public/products/spectrometers/">Спектрометры</a></li>
 
 
 
@@ -190,8 +216,8 @@
  <!-- hugo: enter theme/layout/products/single.html -->
 
 <div class="post-navigation clearfix">
-    <div class="col_half bottommargin-sm"><a href="https://simex-ftir.github.io/simex-public/products/spectrometers/"><i class="icon-line2-arrow-left"></i></a></div>
-    <div class="col_half col_last tright bottommargin-sm"><a href="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-805/"><i class="icon-line2-arrow-right"></i></a></div>
+    <div class="col_half bottommargin-sm"><a href="https://simex-ftir.github.io/simex-public/products/"><i class="icon-line2-arrow-left"></i></a></div>
+    <div class="col_half col_last tright bottommargin-sm"><a href="https://simex-ftir.github.io/simex-public/products/ft-805/"><i class="icon-line2-arrow-right"></i></a></div>
 </div>
 
 
@@ -207,24 +233,24 @@
                 
                 
                 
-                <div class="slide" data-thumb="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/ft-801-product-image_hub73ca9626ad1fac243d082fa55dc1855_104179_240x240_fill_q75_box_center.jpg"><a href="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/ft-801-product-image.jpg"
-                        data-lightbox="gallery-item" title="ft-801-product-image.jpg"><img src="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/ft-801-product-image.jpg" alt="ft-801-product-image.jpg"></a></div>
+                <div class="slide" data-thumb="https://simex-ftir.github.io/simex-public/products/ft-801/ft-801-product-image_hub73ca9626ad1fac243d082fa55dc1855_104179_240x240_fill_q75_box_center.jpg"><a href="https://simex-ftir.github.io/simex-public/products/ft-801/ft-801-product-image.jpg"
+                        data-lightbox="gallery-item" title="ft-801-product-image.jpg"><img src="https://simex-ftir.github.io/simex-public/products/ft-801/ft-801-product-image.jpg" alt="ft-801-product-image.jpg"></a></div>
                 
                 
                 
                 
                 
                 
-                <div class="slide" data-thumb="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/ft-801-gallery1_hu2d3be5435c78ef6c9a762f13b4d9e6b0_591003_240x240_fill_q75_box_center.jpg"><a href="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/ft-801-gallery1.jpg"
-                        data-lightbox="gallery-item" title="Спектрометр ФТ-801 с приставкой НПВО-А"><img src="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/ft-801-gallery1.jpg" alt="Спектрометр ФТ-801 с приставкой НПВО-А"></a></div>
+                <div class="slide" data-thumb="https://simex-ftir.github.io/simex-public/products/ft-801/ft-801-gallery1_hu2d3be5435c78ef6c9a762f13b4d9e6b0_591003_240x240_fill_q75_box_center.jpg"><a href="https://simex-ftir.github.io/simex-public/products/ft-801/ft-801-gallery1.jpg"
+                        data-lightbox="gallery-item" title="Спектрометр ФТ-801 с приставкой НПВО-А"><img src="https://simex-ftir.github.io/simex-public/products/ft-801/ft-801-gallery1.jpg" alt="Спектрометр ФТ-801 с приставкой НПВО-А"></a></div>
                 
                 
                 
                 
                 
                 
-                <div class="slide" data-thumb="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/ft-801-gallery2_hu58e0c96c9fdbd8cc3b36cba9d6f7a402_413157_240x240_fill_q75_box_center.jpg"><a href="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/ft-801-gallery2.jpg"
-                        data-lightbox="gallery-item" title="Спектрометр ФТ-801 с приставкой НПВО-А"><img src="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/ft-801-gallery2.jpg" alt="Спектрометр ФТ-801 с приставкой НПВО-А"></a></div>
+                <div class="slide" data-thumb="https://simex-ftir.github.io/simex-public/products/ft-801/ft-801-gallery2_hu58e0c96c9fdbd8cc3b36cba9d6f7a402_413157_240x240_fill_q75_box_center.jpg"><a href="https://simex-ftir.github.io/simex-public/products/ft-801/ft-801-gallery2.jpg"
+                        data-lightbox="gallery-item" title="Спектрометр ФТ-801 с приставкой НПВО-А"><img src="https://simex-ftir.github.io/simex-public/products/ft-801/ft-801-gallery2.jpg" alt="Спектрометр ФТ-801 с приставкой НПВО-А"></a></div>
                 
                 
             </div>
@@ -286,7 +312,7 @@
         <span>Скачать описание:</span>
         <div>
             
-            <a href="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/ft-801-description-ru.pdf" class="button button-border button-rounded button-blue"><i class="icon-book3"></i>PDF</a>
+            <a href="https://simex-ftir.github.io/simex-public/products/ft-801/ft-801-description-ru.pdf" class="button button-border button-rounded button-blue"><i class="icon-book3"></i>PDF</a>
             
         </div>
     </div>
@@ -433,35 +459,35 @@ Cпектрометр имеет устойчивую к разъюстиров�
       </div><div class="oc-item">
         <div class="iportfolio">
           <div class="portfolio-image">
-            <a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-2/">
-              <img src="https://simex-ftir.github.io/simex-public/products/microscopes/micran-2/micran-2-preview_hu9ff29b5d8bd5a59f6491ee124ed63d8f_62088_400x300_fill_q75_box_smart1.jpg" alt="Open Imagination">
+            <a href="https://simex-ftir.github.io/simex-public/products/micran-2/">
+              <img src="https://simex-ftir.github.io/simex-public/products/micran-2/micran-2-preview_hu9ff29b5d8bd5a59f6491ee124ed63d8f_62088_400x300_fill_q75_box_smart1.jpg" alt="Open Imagination">
             </a>
             <div class="portfolio-overlay">
-              <a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-2/micran-2-preview.jpg" class="left-icon" data-lightbox="image"><i
+              <a href="https://simex-ftir.github.io/simex-public/products/micran-2/micran-2-preview.jpg" class="left-icon" data-lightbox="image"><i
                   class="icon-line-plus"></i></a>
-              <a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-2/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+              <a href="https://simex-ftir.github.io/simex-public/products/micran-2/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
             </div>
           </div>
           <div class="portfolio-desc ">
-            <h3><a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-2/">Микроскоп МИКРАН-2 </a></h3>
-            <span><a href="https://simex-ftir.github.io/simex-public/products/microscopes/">Микроскопы</a></span>
+            <h3><a href="https://simex-ftir.github.io/simex-public/products/micran-2/">Микроскоп МИКРАН-2 </a></h3>
+            <span><a href="https://simex-ftir.github.io/simex-public/products/">Оборудование</a></span>
           </div>
         </div>
       </div><div class="oc-item">
         <div class="iportfolio">
           <div class="portfolio-image">
-            <a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/">
-              <img src="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/micran-3-preview_hu9a2321f81d1b012555bf09d863889553_74155_400x300_fill_q75_box_smart1.jpg" alt="Open Imagination">
+            <a href="https://simex-ftir.github.io/simex-public/products/micran-3/">
+              <img src="https://simex-ftir.github.io/simex-public/products/micran-3/micran-3-preview_hu9a2321f81d1b012555bf09d863889553_74155_400x300_fill_q75_box_smart1.jpg" alt="Open Imagination">
             </a>
             <div class="portfolio-overlay">
-              <a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/micran-3-preview.jpg" class="left-icon" data-lightbox="image"><i
+              <a href="https://simex-ftir.github.io/simex-public/products/micran-3/micran-3-preview.jpg" class="left-icon" data-lightbox="image"><i
                   class="icon-line-plus"></i></a>
-              <a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+              <a href="https://simex-ftir.github.io/simex-public/products/micran-3/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
             </div>
           </div>
           <div class="portfolio-desc ">
-            <h3><a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/">Микроскоп МИКРАН-3 </a></h3>
-            <span><a href="https://simex-ftir.github.io/simex-public/products/microscopes/">Микроскопы</a></span>
+            <h3><a href="https://simex-ftir.github.io/simex-public/products/micran-3/">Микроскоп МИКРАН-3 </a></h3>
+            <span><a href="https://simex-ftir.github.io/simex-public/products/">Оборудование</a></span>
           </div>
         </div>
       </div><div class="oc-item">
@@ -518,23 +544,6 @@ Cпектрометр имеет устойчивую к разъюстиров�
       </div><div class="oc-item">
         <div class="iportfolio">
           <div class="portfolio-image">
-            <a href="https://simex-ftir.github.io/simex-public/products/devices/npvo-monitor/">
-              <img src="https://simex-ftir.github.io/simex-public/products/devices/npvo-monitor/npvo-monitor-preview_hubf13b1e30ac1c5f1ab2b8174c4a18d4a_83446_400x300_fill_q75_box_smart1.jpg" alt="Open Imagination">
-            </a>
-            <div class="portfolio-overlay">
-              <a href="https://simex-ftir.github.io/simex-public/products/devices/npvo-monitor/npvo-monitor-preview.jpg" class="left-icon" data-lightbox="image"><i
-                  class="icon-line-plus"></i></a>
-              <a href="https://simex-ftir.github.io/simex-public/products/devices/npvo-monitor/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-            </div>
-          </div>
-          <div class="portfolio-desc ">
-            <h3><a href="https://simex-ftir.github.io/simex-public/products/devices/npvo-monitor/">Приставка НПВО </a></h3>
-            <span><a href="https://simex-ftir.github.io/simex-public/products/devices/">Приставки</a></span>
-          </div>
-        </div>
-      </div><div class="oc-item">
-        <div class="iportfolio">
-          <div class="portfolio-image">
             <a href="https://simex-ftir.github.io/simex-public/products/devices/npvo-specdiff/">
               <img src="https://simex-ftir.github.io/simex-public/products/devices/npvo-specdiff/npvo-specdiff-preview_hu1889f62acff9e6dfe5dbfafdd229c3fd_62496_400x300_fill_q75_box_smart1.jpg" alt="Open Imagination">
             </a>
@@ -546,6 +555,23 @@ Cпектрометр имеет устойчивую к разъюстиров�
           </div>
           <div class="portfolio-desc ">
             <h3><a href="https://simex-ftir.github.io/simex-public/products/devices/npvo-specdiff/">Приставка НПВО </a></h3>
+            <span><a href="https://simex-ftir.github.io/simex-public/products/devices/">Приставки</a></span>
+          </div>
+        </div>
+      </div><div class="oc-item">
+        <div class="iportfolio">
+          <div class="portfolio-image">
+            <a href="https://simex-ftir.github.io/simex-public/products/devices/npvo-monitor/">
+              <img src="https://simex-ftir.github.io/simex-public/products/devices/npvo-monitor/npvo-monitor-preview_hubf13b1e30ac1c5f1ab2b8174c4a18d4a_83446_400x300_fill_q75_box_smart1.jpg" alt="Open Imagination">
+            </a>
+            <div class="portfolio-overlay">
+              <a href="https://simex-ftir.github.io/simex-public/products/devices/npvo-monitor/npvo-monitor-preview.jpg" class="left-icon" data-lightbox="image"><i
+                  class="icon-line-plus"></i></a>
+              <a href="https://simex-ftir.github.io/simex-public/products/devices/npvo-monitor/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+            </div>
+          </div>
+          <div class="portfolio-desc ">
+            <h3><a href="https://simex-ftir.github.io/simex-public/products/devices/npvo-monitor/">Приставка НПВО </a></h3>
             <span><a href="https://simex-ftir.github.io/simex-public/products/devices/">Приставки</a></span>
           </div>
         </div>

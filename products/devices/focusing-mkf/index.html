@@ -34,6 +34,7 @@
 	<link rel="stylesheet" href="https://simex-ftir.github.io/simex-public//css/leaflet.css" type="text/css" />
 	<script src="https://simex-ftir.github.io/simex-public//js/leaflet.js"></script>
 
+
 	
 	<title>Приставка МКФ - Simex fourier</title>
 	<style>
@@ -133,6 +134,38 @@
     
     
   </ul>
+
+						
+						<div id="top-search">
+							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+							<form action="search.html" method="get">
+                <input type="search" id="search-input" placeholder="Search..." autocomplete="off">                
+
+                <script src="https://cdn.jsdelivr.net/npm/algoliasearch@3/dist/algoliasearchLite.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+                
+                <script>
+                  var client = algoliasearch("EQYIIZQBQX","d8c7776a1f2478bcbb84fbc84c3e14ae");
+                  var index = client.initIndex("simexftir");
+                  autocomplete('#search-input', { hint: false }, [
+                  {
+                    source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+                    displayKey: 'title',
+                    templates: {
+                      suggestion: function(suggestion) {
+                        return suggestion._highlightResult.title.value;
+                      }
+                      }
+                    }
+                  ]).on("autocomplete:selected",function(event, suggestion, dataset, context) {
+                    window.location.assign(suggestion.url);
+                  });
+                </script>
+              
+
+							</form>
+						</div>  
+
 
 </nav>
 

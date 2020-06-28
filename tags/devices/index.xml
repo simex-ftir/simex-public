@@ -38,15 +38,6 @@
     </item>
     
     <item>
-      <title>Приставки</title>
-      <link>https://simex-ftir.github.io/simex-public/products/devices/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://simex-ftir.github.io/simex-public/products/devices/</guid>
-      <description>Дополнительные подключаемые устройства для различных рабочих режимов и специальных методик измерения.</description>
-    </item>
-    
-    <item>
       <title>Приставка ПРИЗ</title>
       <link>https://simex-ftir.github.io/simex-public/products/devices/reflectance-box/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -71,6 +62,15 @@
       
       <guid>https://simex-ftir.github.io/simex-public/products/devices/npvo-multiple/</guid>
       <description>Приставка МНПВО с элементом из селенида цинка и встроенной системой визуализации на внешнем мониторе.</description>
+    </item>
+    
+    <item>
+      <title>Приставки</title>
+      <link>https://simex-ftir.github.io/simex-public/products/devices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://simex-ftir.github.io/simex-public/products/devices/</guid>
+      <description>Дополнительные подключаемые устройства для различных рабочих режимов и специальных методик измерения.</description>
     </item>
     
     <item>

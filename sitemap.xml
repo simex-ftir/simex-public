@@ -3,15 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://simex-ftir.github.io/simex-public/products/microscopes/micran-2/</loc>
-  </url>
-  
-  <url>
     <loc>https://simex-ftir.github.io/simex-public/products/devices/npvo-monitor/</loc>
-  </url>
-  
-  <url>
-    <loc>https://simex-ftir.github.io/simex-public/products/spectrometers/</loc>
   </url>
   
   <url>
@@ -19,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/</loc>
+    <loc>https://simex-ftir.github.io/simex-public/products/ft-801/</loc>
   </url>
   
   <url>
@@ -27,19 +19,11 @@
   </url>
   
   <url>
-    <loc>https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://simex-ftir.github.io/simex-public/products/microscopes/</loc>
-  </url>
-  
-  <url>
     <loc>https://simex-ftir.github.io/simex-public/about/</loc>
   </url>
   
   <url>
-    <loc>https://simex-ftir.github.io/simex-public/products/spectrometers/ft-805/</loc>
+    <loc>https://simex-ftir.github.io/simex-public/products/ft-805/</loc>
   </url>
   
   <url>
@@ -47,7 +31,11 @@
   </url>
   
   <url>
-    <loc>https://simex-ftir.github.io/simex-public/products/devices/</loc>
+    <loc>https://simex-ftir.github.io/simex-public/products/micran-2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://simex-ftir.github.io/simex-public/products/micran-3/</loc>
   </url>
   
   <url>
@@ -60,6 +48,10 @@
   
   <url>
     <loc>https://simex-ftir.github.io/simex-public/products/devices/npvo-multiple/</loc>
+  </url>
+  
+  <url>
+    <loc>https://simex-ftir.github.io/simex-public/products/devices/</loc>
   </url>
   
   <url>

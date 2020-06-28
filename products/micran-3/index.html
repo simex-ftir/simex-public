@@ -34,6 +34,7 @@
 	<link rel="stylesheet" href="https://simex-ftir.github.io/simex-public//css/leaflet.css" type="text/css" />
 	<script src="https://simex-ftir.github.io/simex-public//js/leaflet.js"></script>
 
+
 	
 	<title>МИКРАН-3 - Simex fourier</title>
 	<style>
@@ -134,6 +135,38 @@
     
   </ul>
 
+						
+						<div id="top-search">
+							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+							<form action="search.html" method="get">
+                <input type="search" id="search-input" placeholder="Search..." autocomplete="off">                
+
+                <script src="https://cdn.jsdelivr.net/npm/algoliasearch@3/dist/algoliasearchLite.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+                
+                <script>
+                  var client = algoliasearch("EQYIIZQBQX","d8c7776a1f2478bcbb84fbc84c3e14ae");
+                  var index = client.initIndex("simexftir");
+                  autocomplete('#search-input', { hint: false }, [
+                  {
+                    source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+                    displayKey: 'title',
+                    templates: {
+                      suggestion: function(suggestion) {
+                        return suggestion._highlightResult.title.value;
+                      }
+                      }
+                    }
+                  ]).on("autocomplete:selected",function(event, suggestion, dataset, context) {
+                    window.location.assign(suggestion.url);
+                  });
+                </script>
+              
+
+							</form>
+						</div>  
+
+
 </nav>
 
 
@@ -153,8 +186,6 @@
 
   
 
-  
-
 
   <li class="breadcrumb-item"><a href="https://simex-ftir.github.io/simex-public/">Главная</a></li>
 
@@ -162,11 +193,6 @@
 
 
   <li class="breadcrumb-item"><a href="https://simex-ftir.github.io/simex-public/products/">Оборудование</a></li>
-
-
-
-
-  <li class="breadcrumb-item"><a href="https://simex-ftir.github.io/simex-public/products/microscopes/">Микроскопы</a></li>
 
 
 
@@ -190,7 +216,7 @@
  <!-- hugo: enter theme/layout/products/single.html -->
 
 <div class="post-navigation clearfix">
-    <div class="col_half bottommargin-sm"><a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-2/"><i class="icon-line2-arrow-left"></i></a></div>
+    <div class="col_half bottommargin-sm"><a href="https://simex-ftir.github.io/simex-public/products/micran-2/"><i class="icon-line2-arrow-left"></i></a></div>
     <div class="col_half col_last tright bottommargin-sm"><a href="https://simex-ftir.github.io/simex-public/products/devices/"><i class="icon-line2-arrow-right"></i></a></div>
 </div>
 
@@ -207,24 +233,24 @@
                 
                 
                 
-                <div class="slide" data-thumb="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/micran-3-product-image-16x10_hu30f3e4c5674b0f847c0467782d2ed607_129233_240x240_fill_q75_box_center.jpg"><a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/micran-3-product-image-16x10.jpg"
-                        data-lightbox="gallery-item" title="Спектральный комплекс: спектрометр ФТ-801 с микроскопом МИКРАН-3"><img src="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/micran-3-product-image-16x10.jpg" alt="Спектральный комплекс: спектрометр ФТ-801 с микроскопом МИКРАН-3"></a></div>
+                <div class="slide" data-thumb="https://simex-ftir.github.io/simex-public/products/micran-3/micran-3-product-image-16x10_hu30f3e4c5674b0f847c0467782d2ed607_129233_240x240_fill_q75_box_center.jpg"><a href="https://simex-ftir.github.io/simex-public/products/micran-3/micran-3-product-image-16x10.jpg"
+                        data-lightbox="gallery-item" title="Спектральный комплекс: спектрометр ФТ-801 с микроскопом МИКРАН-3"><img src="https://simex-ftir.github.io/simex-public/products/micran-3/micran-3-product-image-16x10.jpg" alt="Спектральный комплекс: спектрометр ФТ-801 с микроскопом МИКРАН-3"></a></div>
                 
                 
                 
                 
                 
                 
-                <div class="slide" data-thumb="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/micran-3-gallery2_hu75086fc399f179ffbb6dd811a16ec01e_61968_240x240_fill_q75_box_center.jpg"><a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/micran-3-gallery2.jpg"
-                        data-lightbox="gallery-item" title="Широкодиапазонный инфракрасный микроскоп МИКРАН-3 исследовательского класса"><img src="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/micran-3-gallery2.jpg" alt="Широкодиапазонный инфракрасный микроскоп МИКРАН-3 исследовательского класса"></a></div>
+                <div class="slide" data-thumb="https://simex-ftir.github.io/simex-public/products/micran-3/micran-3-gallery2_hu75086fc399f179ffbb6dd811a16ec01e_61968_240x240_fill_q75_box_center.jpg"><a href="https://simex-ftir.github.io/simex-public/products/micran-3/micran-3-gallery2.jpg"
+                        data-lightbox="gallery-item" title="Широкодиапазонный инфракрасный микроскоп МИКРАН-3 исследовательского класса"><img src="https://simex-ftir.github.io/simex-public/products/micran-3/micran-3-gallery2.jpg" alt="Широкодиапазонный инфракрасный микроскоп МИКРАН-3 исследовательского класса"></a></div>
                 
                 
                 
                 
                 
                 
-                <div class="slide" data-thumb="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/micran-3-gallery3_hu9174fffc1fb0bdc665a58f2a7d575baa_243246_240x240_fill_q75_box_center.jpg"><a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/micran-3-gallery3.jpg"
-                        data-lightbox="gallery-item" title="Штрихи канцелярских маркеров отличающихся по химическому составу."><img src="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/micran-3-gallery3.jpg" alt="Штрихи канцелярских маркеров отличающихся по химическому составу."></a></div>
+                <div class="slide" data-thumb="https://simex-ftir.github.io/simex-public/products/micran-3/micran-3-gallery3_hu9174fffc1fb0bdc665a58f2a7d575baa_243246_240x240_fill_q75_box_center.jpg"><a href="https://simex-ftir.github.io/simex-public/products/micran-3/micran-3-gallery3.jpg"
+                        data-lightbox="gallery-item" title="Штрихи канцелярских маркеров отличающихся по химическому составу."><img src="https://simex-ftir.github.io/simex-public/products/micran-3/micran-3-gallery3.jpg" alt="Штрихи канцелярских маркеров отличающихся по химическому составу."></a></div>
                 
                 
             </div>
@@ -286,7 +312,7 @@
         <span>Скачать описание:</span>
         <div>
             
-            <a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-3/micran-description-ru.pdf" class="button button-border button-rounded button-blue"><i class="icon-book3"></i>PDF</a>
+            <a href="https://simex-ftir.github.io/simex-public/products/micran-3/micran-description-ru.pdf" class="button button-border button-rounded button-blue"><i class="icon-book3"></i>PDF</a>
             
         </div>
     </div>
@@ -505,52 +531,52 @@
       data-autoplay="5000" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-xl="4"><div class="oc-item">
         <div class="iportfolio">
           <div class="portfolio-image">
-            <a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-2/">
-              <img src="https://simex-ftir.github.io/simex-public/products/microscopes/micran-2/micran-2-preview_hu9ff29b5d8bd5a59f6491ee124ed63d8f_62088_400x300_fill_q75_box_smart1.jpg" alt="Open Imagination">
+            <a href="https://simex-ftir.github.io/simex-public/products/micran-2/">
+              <img src="https://simex-ftir.github.io/simex-public/products/micran-2/micran-2-preview_hu9ff29b5d8bd5a59f6491ee124ed63d8f_62088_400x300_fill_q75_box_smart1.jpg" alt="Open Imagination">
             </a>
             <div class="portfolio-overlay">
-              <a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-2/micran-2-preview.jpg" class="left-icon" data-lightbox="image"><i
+              <a href="https://simex-ftir.github.io/simex-public/products/micran-2/micran-2-preview.jpg" class="left-icon" data-lightbox="image"><i
                   class="icon-line-plus"></i></a>
-              <a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-2/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+              <a href="https://simex-ftir.github.io/simex-public/products/micran-2/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
             </div>
           </div>
           <div class="portfolio-desc ">
-            <h3><a href="https://simex-ftir.github.io/simex-public/products/microscopes/micran-2/">Микроскоп МИКРАН-2 </a></h3>
-            <span><a href="https://simex-ftir.github.io/simex-public/products/microscopes/">Микроскопы</a></span>
+            <h3><a href="https://simex-ftir.github.io/simex-public/products/micran-2/">Микроскоп МИКРАН-2 </a></h3>
+            <span><a href="https://simex-ftir.github.io/simex-public/products/">Оборудование</a></span>
           </div>
         </div>
       </div><div class="oc-item">
         <div class="iportfolio">
           <div class="portfolio-image">
-            <a href="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/">
-              <img src="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/ft-801-preview_hu1d6533cef3175fd01a5f903db0304994_76997_400x300_fill_q75_box_smart1.jpg" alt="Open Imagination">
+            <a href="https://simex-ftir.github.io/simex-public/products/ft-801/">
+              <img src="https://simex-ftir.github.io/simex-public/products/ft-801/ft-801-preview_hu1d6533cef3175fd01a5f903db0304994_76997_400x300_fill_q75_box_smart1.jpg" alt="Open Imagination">
             </a>
             <div class="portfolio-overlay">
-              <a href="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/ft-801-preview.jpg" class="left-icon" data-lightbox="image"><i
+              <a href="https://simex-ftir.github.io/simex-public/products/ft-801/ft-801-preview.jpg" class="left-icon" data-lightbox="image"><i
                   class="icon-line-plus"></i></a>
-              <a href="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+              <a href="https://simex-ftir.github.io/simex-public/products/ft-801/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
             </div>
           </div>
           <div class="portfolio-desc ">
-            <h3><a href="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-801/">Спектрометр ФТ-801 </a></h3>
-            <span><a href="https://simex-ftir.github.io/simex-public/products/spectrometers/">Спектрометры</a></span>
+            <h3><a href="https://simex-ftir.github.io/simex-public/products/ft-801/">Спектрометр ФТ-801 </a></h3>
+            <span><a href="https://simex-ftir.github.io/simex-public/products/">Оборудование</a></span>
           </div>
         </div>
       </div><div class="oc-item">
         <div class="iportfolio">
           <div class="portfolio-image">
-            <a href="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-805/">
-              <img src="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-805/ft-805-preview_hu6e486234e78b57dcfce6f1fee7abbfdd_56392_400x300_fill_q75_box_smart1.jpg" alt="Open Imagination">
+            <a href="https://simex-ftir.github.io/simex-public/products/ft-805/">
+              <img src="https://simex-ftir.github.io/simex-public/products/ft-805/ft-805-preview_hu6e486234e78b57dcfce6f1fee7abbfdd_56392_400x300_fill_q75_box_smart1.jpg" alt="Open Imagination">
             </a>
             <div class="portfolio-overlay">
-              <a href="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-805/ft-805-preview.jpg" class="left-icon" data-lightbox="image"><i
+              <a href="https://simex-ftir.github.io/simex-public/products/ft-805/ft-805-preview.jpg" class="left-icon" data-lightbox="image"><i
                   class="icon-line-plus"></i></a>
-              <a href="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-805/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+              <a href="https://simex-ftir.github.io/simex-public/products/ft-805/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
             </div>
           </div>
           <div class="portfolio-desc ">
-            <h3><a href="https://simex-ftir.github.io/simex-public/products/spectrometers/ft-805/">Спектрометр ФТ-805 </a></h3>
-            <span><a href="https://simex-ftir.github.io/simex-public/products/spectrometers/">Спектрометры</a></span>
+            <h3><a href="https://simex-ftir.github.io/simex-public/products/ft-805/">Спектрометр ФТ-805 </a></h3>
+            <span><a href="https://simex-ftir.github.io/simex-public/products/">Оборудование</a></span>
           </div>
         </div>
       </div>

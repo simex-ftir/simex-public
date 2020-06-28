@@ -34,6 +34,7 @@
 	<link rel="stylesheet" href="https://simex-ftir.github.io/simex-public//css/leaflet.css" type="text/css" />
 	<script src="https://simex-ftir.github.io/simex-public//js/leaflet.js"></script>
 
+
 	
 	<title>Оборудование - Simex fourier</title>
 	<style>
@@ -134,6 +135,38 @@
     
   </ul>
 
+						
+						<div id="top-search">
+							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+							<form action="search.html" method="get">
+                <input type="search" id="search-input" placeholder="Search..." autocomplete="off">                
+
+                <script src="https://cdn.jsdelivr.net/npm/algoliasearch@3/dist/algoliasearchLite.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+                
+                <script>
+                  var client = algoliasearch("EQYIIZQBQX","d8c7776a1f2478bcbb84fbc84c3e14ae");
+                  var index = client.initIndex("simexftir");
+                  autocomplete('#search-input', { hint: false }, [
+                  {
+                    source: autocomplete.sources.hits(index, { hitsPerPage: 5 }),
+                    displayKey: 'title',
+                    templates: {
+                      suggestion: function(suggestion) {
+                        return suggestion._highlightResult.title.value;
+                      }
+                      }
+                    }
+                  ]).on("autocomplete:selected",function(event, suggestion, dataset, context) {
+                    window.location.assign(suggestion.url);
+                  });
+                </script>
+              
+
+							</form>
+						</div>  
+
+
 </nav>
 
 
@@ -229,26 +262,61 @@
     
 
     <div class="portfolio-image">
-        <a href="https://simex-ftir.github.io/simex-public/products/spectrometers/">
-            <img src="https://simex-ftir.github.io/simex-public/products/spectrometers/spectrometers-product-image_hub73ca9626ad1fac243d082fa55dc1855_104179_720x400_fill_q75_box_center.jpg" alt="Инфракрасные фурье-спектрометры">
+        <a href="https://simex-ftir.github.io/simex-public/products/ft-801/">
+            <img src="https://simex-ftir.github.io/simex-public/products/ft-801/ft-801-product-image_hub73ca9626ad1fac243d082fa55dc1855_104179_720x400_fill_q75_box_center.jpg" alt="Инфракрасный фурье-спектрометр ФТ-801">
         </a>
         <div class="portfolio-overlay">
-            <a href="https://simex-ftir.github.io/simex-public/products/spectrometers/spectrometers-product-image.jpg" class="left-icon" data-lightbox="image"><i
+            <a href="https://simex-ftir.github.io/simex-public/products/ft-801/ft-801-product-image.jpg" class="left-icon" data-lightbox="image"><i
                     class="icon-line-plus"></i></a>
-            <a href="https://simex-ftir.github.io/simex-public/products/spectrometers/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+            <a href="https://simex-ftir.github.io/simex-public/products/ft-801/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
         </div>
     </div>
 
     
     
     <div class="portfolio-desc">
-        <h3><a href="https://simex-ftir.github.io/simex-public/products/spectrometers/">Инфракрасные фурье-спектрометры</a></h3>
-        <span><a href="https://simex-ftir.github.io/simex-public/products/spectrometers/">Спектрометры</a></span>
-        <p>Регистрация спектров поглощения твердых, жидких и газообразных веществ в ближней и средней ИК области для их последующей идентификации.</p>
+        <h3><a href="https://simex-ftir.github.io/simex-public/products/ft-801/">Инфракрасный фурье-спектрометр ФТ-801</a></h3>
+        <span><a href="https://simex-ftir.github.io/simex-public/products/">Оборудование</a></span>
+        <p>Базовая модель с широкими возможностями расширения функционала за счет подключения внешних устройств.</p>
         <ul class="iconlist">
             <li><i class="icon-ok"></i> <strong>Произведено:</strong> СИМЕКС</li>
         </ul>
-        <a href="https://simex-ftir.github.io/simex-public/products/spectrometers/" class="button button-3d noleftmargin">Перейти</a>
+        <a href="https://simex-ftir.github.io/simex-public/products/ft-801/" class="button button-3d noleftmargin">Перейти</a>
+    </div>
+</article>
+
+        
+            <article class="portfolio-item spectrometers clearfix">
+
+     
+
+    
+    
+     
+    
+    
+
+    <div class="portfolio-image">
+        <a href="https://simex-ftir.github.io/simex-public/products/ft-805/">
+            <img src="https://simex-ftir.github.io/simex-public/products/ft-805/ft-805-product-image_hu83ba4416c0558303de6ed78049582d83_133261_720x400_fill_q75_box_center.jpg" alt="Инфракрасный фурье-спектрометр ФТ-805">
+        </a>
+        <div class="portfolio-overlay">
+            <a href="https://simex-ftir.github.io/simex-public/products/ft-805/ft-805-product-image.jpg" class="left-icon" data-lightbox="image"><i
+                    class="icon-line-plus"></i></a>
+            <a href="https://simex-ftir.github.io/simex-public/products/ft-805/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+        </div>
+    </div>
+
+    
+    
+    <div class="portfolio-desc">
+        <h3><a href="https://simex-ftir.github.io/simex-public/products/ft-805/">Инфракрасный фурье-спектрометр ФТ-805</a></h3>
+        <span><a href="https://simex-ftir.github.io/simex-public/products/">Оборудование</a></span>
+        <p>Компактная модель с интегрированными детекторами для экспресс-мониторинга технологических процессов.</p>
+        <ul class="iconlist">
+            <li><i class="icon-ok"></i> <strong>Произведено:</strong> СИМЕКС</li>
+        </ul>
+        <a href="https://simex-ftir.github.io/simex-public/products/ft-805/" class="button button-3d noleftmargin">Перейти</a>
     </div>
 </article>
 
@@ -264,26 +332,61 @@
     
 
     <div class="portfolio-image">
-        <a href="https://simex-ftir.github.io/simex-public/products/microscopes/">
-            <img src="https://simex-ftir.github.io/simex-public/products/microscopes/microscopes-product-image_huc44856f842147081c9c62519fb437dcd_147971_720x400_fill_q75_box_center.jpg" alt="Инфракрасные микроскопы">
+        <a href="https://simex-ftir.github.io/simex-public/products/micran-2/">
+            <img src="https://simex-ftir.github.io/simex-public/products/micran-2/micran-2-product-image_hufe534e89b24d18c4ccddd8295989a84e_85025_720x400_fill_q75_box_center.jpg" alt="Инфракрасный микроскоп МИКРАН-2">
         </a>
         <div class="portfolio-overlay">
-            <a href="https://simex-ftir.github.io/simex-public/products/microscopes/microscopes-product-image.jpg" class="left-icon" data-lightbox="image"><i
+            <a href="https://simex-ftir.github.io/simex-public/products/micran-2/micran-2-product-image.jpg" class="left-icon" data-lightbox="image"><i
                     class="icon-line-plus"></i></a>
-            <a href="https://simex-ftir.github.io/simex-public/products/microscopes/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+            <a href="https://simex-ftir.github.io/simex-public/products/micran-2/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
         </div>
     </div>
 
     
     
     <div class="portfolio-desc">
-        <h3><a href="https://simex-ftir.github.io/simex-public/products/microscopes/">Инфракрасные микроскопы</a></h3>
-        <span><a href="https://simex-ftir.github.io/simex-public/products/microscopes/">Микроскопы</a></span>
-        <p>Широкодиапазонные инфракрасные микроскопы, подключаются к фурье спектрометрам для исследования микрообъектов сложного состава.</p>
+        <h3><a href="https://simex-ftir.github.io/simex-public/products/micran-2/">Инфракрасный микроскоп МИКРАН-2</a></h3>
+        <span><a href="https://simex-ftir.github.io/simex-public/products/">Оборудование</a></span>
+        <p>Широкодиапазонный инфракрасный микроскоп для исследования неоднородных по составу образцов размером от 10 микрон.</p>
         <ul class="iconlist">
             <li><i class="icon-ok"></i> <strong>Произведено:</strong> СИМЕКС</li>
         </ul>
-        <a href="https://simex-ftir.github.io/simex-public/products/microscopes/" class="button button-3d noleftmargin">Перейти</a>
+        <a href="https://simex-ftir.github.io/simex-public/products/micran-2/" class="button button-3d noleftmargin">Перейти</a>
+    </div>
+</article>
+
+        
+            <article class="portfolio-item microscopes clearfix">
+
+     
+
+    
+    
+     
+    
+    
+
+    <div class="portfolio-image">
+        <a href="https://simex-ftir.github.io/simex-public/products/micran-3/">
+            <img src="https://simex-ftir.github.io/simex-public/products/micran-3/micran-3-product-image_hu19c729bd7240dc26b8817e9e1231c61b_98281_720x400_fill_q75_box_center.jpg" alt="Инфракрасный микроскоп МИКРАН-3">
+        </a>
+        <div class="portfolio-overlay">
+            <a href="https://simex-ftir.github.io/simex-public/products/micran-3/micran-3-product-image.jpg" class="left-icon" data-lightbox="image"><i
+                    class="icon-line-plus"></i></a>
+            <a href="https://simex-ftir.github.io/simex-public/products/micran-3/" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+        </div>
+    </div>
+
+    
+    
+    <div class="portfolio-desc">
+        <h3><a href="https://simex-ftir.github.io/simex-public/products/micran-3/">Инфракрасный микроскоп МИКРАН-3</a></h3>
+        <span><a href="https://simex-ftir.github.io/simex-public/products/">Оборудование</a></span>
+        <p>Широкодиапазонный инфракрасный микроскоп исследовательского класса с расширенными возможностями.</p>
+        <ul class="iconlist">
+            <li><i class="icon-ok"></i> <strong>Произведено:</strong> СИМЕКС</li>
+        </ul>
+        <a href="https://simex-ftir.github.io/simex-public/products/micran-3/" class="button button-3d noleftmargin">Перейти</a>
     </div>
 </article>
 
